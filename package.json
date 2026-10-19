@@ -1,0 +1,20 @@
+{
+  "name": "agent-approval",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Human-in-the-loop approval gate with pattern-based policies (auto-approve reads, require approval for side effects).",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theAliCanAcar/agent-approval.git"
+  },
+  "bugs": {
+    "url": "https://github.com/theAliCanAcar/agent-approval/issues"
+  },
+  "homepage": "https://github.com/theAliCanAcar/agent-approval#readme"
+}
